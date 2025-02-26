@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: mmregistry.mmvietnam.com:5000/my-app:latest
+        image: mmregistry-uat.mmvietnam.com:5000/my-app:latest
         ports:
         - containerPort: 3000
       imagePullSecrets:
